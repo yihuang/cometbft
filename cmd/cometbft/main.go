@@ -33,6 +33,7 @@ func main() {
 		cmd.CompactGoLevelDBCmd,
 		debug.DebugCmd,
 		cli.NewCompletionCmd(rootCmd, true),
+		cmd.BootstrapStateCmd,
 	)
 
 	// NOTE:
